@@ -1,12 +1,12 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-/* more headers goes there */
 
-/* main: Select a random number and decide if it is positive, 
- * negative or zero
+/**
+ * main - main function
+ * Description: Checks if random number is positive, negative or zero
  * Return: 0
- * */
+ */
 int main(void)
 {
 	int n;
