@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - main function 
  * Description: prints alphabet in singsong way and is followed by a new line
