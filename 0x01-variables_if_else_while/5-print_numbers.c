@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - main function
- * Description: prints all numbers of base 10 starting at 0 
+ * Description: prints all numbers of base 10 starting at 0
  * Return: 0
  */
 int main(void)
