@@ -3,14 +3,14 @@
 
 /**
  * main - main function
- * Description: Write a program that prints all possible different combos of two numbers
+ * Description: prints all possible different combos of two numbers
  * Return: 0
  */
 int main(void)
 {
 	int c1 = 0;
-	int da1; 
-	int db1; 
+	int da1;
+	int db1;
 
 	int c2;
 	int da2;
@@ -34,7 +34,7 @@ int main(void)
 				putchar(da2);
 				putchar(db2);
 
-				if(c1 != 98)
+				if (c1 != 98)
 				{
 					putchar(',');
 					putchar(' ');
