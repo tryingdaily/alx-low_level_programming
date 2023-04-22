@@ -19,7 +19,7 @@ int main(void)
 	while (c1 <= 98)
 	{
 		da1 = (c1 / 10 + '0');
-		db1 = (c2 % 10 + '0');
+		db1 = (c1 % 10 + '0');
 		c2 = 0;
 		while (c2 <= 99)
 		{
@@ -34,7 +34,7 @@ int main(void)
 				putchar(da2);
 				putchar(db2);
 
-				if(c != 98)
+				if(c1 != 98)
 				{
 					putchar(',');
 					putchar(' ');
