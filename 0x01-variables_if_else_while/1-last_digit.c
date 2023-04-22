@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-
 /**
  * main - main function
  * Description: Takes a random number and prints 5, 0 or 6
  * Return: 0
  */
-
 int main(void)
 {
 	int n, last;
