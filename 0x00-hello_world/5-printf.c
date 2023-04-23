@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints with promper grammer, but the outcome is a piece of art and a new line
+ * main - prints with promper grammer, but the outcome is a piece of art
  *
  * Return: 0
  */
