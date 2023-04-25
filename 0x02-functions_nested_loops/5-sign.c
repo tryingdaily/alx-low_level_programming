@@ -3,13 +3,14 @@
 /**
  * print_sign -  prints the sign of a number
  *
- * @n: input value 
+ * @n: input value
  *
- * Return: 1 and print + if n > 0, 0 prints 0 if n = 0 and -1 and print - if n < 0
+ * Return: 1, 0 or -1
  */
 int print_sign(int n)
 {
 	int return_value;
+
 	if (n > 0)
 	{
 		_putchar('+');
@@ -25,6 +26,5 @@ int print_sign(int n)
 		_putchar('-');
 	       return_value = -1;
 	}
-return (return_value);	
-
+return (return_value);
 }
