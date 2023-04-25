@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	char _putchar[10] = "_putchar";
+	char _characters[10] = "_putchar\n";
 
 	int i;
 
-	for (i = 0; i < 8, i++)
+	for (i = 0; i < 9, i++)
 	{
-		_putchar(_putchar[i]);
+		_putchar(_characters[i]);
 	}
 	_putchar(10);
 
