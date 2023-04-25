@@ -3,11 +3,11 @@
 /**
  * print_to_98 - prints nautral numbers from n to 98
  *
- * @i: starting integer
+ * @n: starting integer
  *
  * Return: nothing to return
  */
-void print_to_98(int i)
+void print_to_98(int n)
 {
 	if (n >= 98)
 	{
