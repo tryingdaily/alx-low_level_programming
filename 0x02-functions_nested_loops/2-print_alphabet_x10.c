@@ -7,8 +7,7 @@
 void print_alphabet_x10(void)
 {
 	char alphabet[26] = "abcdefghijklmnopqrstuvwzyz";
-	int i = 0, j;
-	
+	int i = 0, j;	
 	while (i < 10)
 	{
 		j = 0;
