@@ -37,10 +37,12 @@ int main(void)
 		if (inc != 98)
 			printf(",");
 
-		n1_h1 = n2_1;
+		n1_h1 = n2_h1;
 		n1_h2 = n2_h2;
 		n2_h1 = h1;
 		n2_h2 = h2;
 	}
 	printf("\n");
 	return (0);
+}
+
