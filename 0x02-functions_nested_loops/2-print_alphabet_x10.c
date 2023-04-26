@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		j = 0;
-		while (j < 26)
+		while (j <= 26)
 		{
 			_putchar(alphabet[j]);
 			j++;
