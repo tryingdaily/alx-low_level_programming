@@ -1,27 +1,30 @@
-#include "main.h"
 /**
- *print_number - prints an integer.
- *only using the putchar function.
- *noarrays and pointers.
- *@n: integer to be printed.
+ * rot13 - Encodes a string using ROT13 cipher
+ * @str: Pointer to the string to be encoded
  *
- *Return: void.
+ * Return: Pointer to the encoded string
  */
-void print_number(int n)
+char *rot13(char *str)
 {
-	unsigned int num;
-/*check if number is negative*/
-	num = n;
-	if (n < 0)
-	{
-		_putchar(45);
-		num = -n;
-	}
-/* print number by recursion*/
-	if (num / 10)
-	{
-		print_number(num / 10);
-	}
-	_putchar((num % 10) + '0');
+    int i, j;
+    char c;
+
+    for (i = 0; str[i] != '\0'; i++) {
+        if (str[i] >= 'a' && str[i] <= 'z') {
+            // Rotate lowercase letters by 13 positions
+            c = str[i] + 13;
+            if (c > 'z')
+                c -= 26;
+            str[i] = c;
+        } else if (str[i] >= 'A' && str[i] <= 'Z') {
+            // Rotate uppercase letters by 13 positions
+            c = str[i] + 13;
+            if (c > 'Z')
+                c -= 26;
+            str[i] = c;
+        }
+    }
+
+    return str;
 }
 
